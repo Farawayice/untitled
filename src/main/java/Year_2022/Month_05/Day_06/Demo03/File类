@@ -1,0 +1,20 @@
+File类
+
+文件和目录路径名抽象表现形式
+ *      File类获取功能的方法：
+ *      public String getAbsolutePath():返回此File的绝对路径名字字符串。
+ *      public String getPath():将此File转换为路径名字字符串。
+ *      public String getName()：返回由此File表示的文件或目录的名称。
+ *      public long length():返回由此File表示的文件的大小。
+
+
+
+
+
+
+
+
+
+
+
+
