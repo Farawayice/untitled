@@ -1,0 +1,39 @@
+
+
+
+
+FileInputStream fis = new FileInputStream("E:\home\yj\test\jpg\tp.jpg");
+FileOutputStream fos = new FileOutputStream("E:\home\yj\test\png\tp.jpg)
+int len = 0;
+while((len = fis.read())!=-1){
+        //写入文件
+        fos.write(len);
+}
+fos.cloes();
+fis.cloes();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -42,13 +42,13 @@ import java.io.IOException;
 public class Demo01InputStream {
     public static void main(String[] args) throws IOException {
         //  1、创建FileInputStream对象，构造方法中绑定要读取的数据源
-        FileInputStream  fileInputStream = new FileInputStream("E:\\home\\yj\\test\\a.txt");
+        FileInputStream  fis = new FileInputStream("E:\\home\\yj\\test\\a.txt");
         //  2、使用FileInputStream对象中的方法read,读取文件
         int len = 0;
-        while ((len=fileInputStream.read())!=-1) {
-            System.out.print((char) len);
+        while ((len=fis.read())!=-1) {
+            System.out.println((char) len);
         }
         //  3、释放资源
-        fileInputStream.close();
+        fis.close();
     }
 }
