@@ -1,4 +1,4 @@
-//import cn.hutool.core.codec.BCD;
+package org.example;//import cn.hutool.core.codec.BCD;
 //import com.derunht.enums.FloatOrderEnum;
 //import com.derunht.modules.entity.DeviceFloatOrder;
 //import com.derunht.modules.service.DeviceFloatOrderService;
