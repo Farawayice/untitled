@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习输入输出流">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_09/Demo04/Demo04Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo01TryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo02JDK7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989144c-4054-4c3f-9b23-535b2dec899b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d989144c-4054-4c3f-9b23-535b2dec899b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,27 +57,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "E:/工作/HuanJing/untitled",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/工作/HuanJing/untitled&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09" />
@@ -81,13 +87,13 @@
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09\Demo03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo02JDK7">
-    <configuration name="Demo01TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo01.Demo01TryCatch" />
+  <component name="RunManager" selected="Application.Demo01Properties">
+    <configuration name="Demo01Properties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo02.Demo01Properties" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo01.*" />
+          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02CloseAndFlush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_09.Demo04.Demo02CloseAndFlush" />
+    <configuration name="Demo01TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo01.Demo01TryCatch" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2022.Month_09.Day_09.Demo04.*" />
+          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +153,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo02.test" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.Demo01Properties" />
+      <item itemvalue="Application.Demo01TryCatch" />
+      <item itemvalue="Application.Demo02JDK7" />
+      <item itemvalue="Application.Demo03Writer" />
+      <item itemvalue="Application.Demo04Writer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo02JDK7" />
+        <item itemvalue="Application.Demo01Properties" />
         <item itemvalue="Application.Demo01TryCatch" />
+        <item itemvalue="Application.Demo02JDK7" />
         <item itemvalue="Application.Demo04Writer" />
         <item itemvalue="Application.Demo03Writer" />
-        <item itemvalue="Application.Demo02CloseAndFlush" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +196,7 @@
       <updated>1651719803709</updated>
       <workItem from="1662705420650" duration="10399000" />
       <workItem from="1663035875876" duration="6592000" />
+      <workItem from="1663058965950" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -217,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662715863296</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="练习输入输出流">
+      <created>1663058491710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663058491710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +265,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
