@@ -1,0 +1,365 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>untitled</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>8</maven.compiler.source>\r\n        <maven.compiler.target>8</maven.compiler.target>\r\n    </properties>\r\n    \r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 4e3925b9912cf3ed5c6404fd6f24a372d0ddc5de)
++++ b/pom.xml	(date 1663053363564)
+@@ -7,10 +7,22 @@
+     <groupId>org.example</groupId>
+     <artifactId>untitled</artifactId>
+     <version>1.0-SNAPSHOT</version>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <source>9</source>
++                    <target>9</target>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+ 
+     <properties>
+         <maven.compiler.source>8</maven.compiler.source>
+         <maven.compiler.target>8</maven.compiler.target>
+     </properties>
+-    
++
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c853973d-eca7-461c-b332-fed614629060\" name=\"Changes\" comment=\"练习输入输出流\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_09/Demo04/Demo04Writer.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo01TryCatch.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo02JDK7.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/untitled/pom.xml\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"28jApLQrHedwvHFtuHmHIW5P6zN\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"jdk.selected.JAVA_MODULE\": \"18\",\r\n    \"last_opened_file_path\": \"E:/工作/HuanJing/untitled\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"mysql\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\工作\\HuanJing\\untitled\\src\\main\\java\\Year_2022\\Month_09\\Day_09\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\工作\\HuanJing\\untitled\\src\\main\\java\\Year_2022\\Month_09\\Day_09\\Demo03\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Demo02JDK7\">\r\n    <configuration name=\"Demo01TryCatch\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Year_2022.Month_09.Day_13.Demo01.Demo01TryCatch\" />\r\n      <module name=\"untitled\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Year_2022.Month_09.Day_13.Demo01.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Demo02CloseAndFlush\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Year_2022.Month_09.Day_09.Demo04.Demo02CloseAndFlush\" />\r\n      <module name=\"untitled\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Year_2022.Month_09.Day_09.Demo04.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Demo02JDK7\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Year_2022.Month_09.Day_13.Demo01.Demo02JDK7\" />\r\n      <module name=\"untitled\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Year_2022.Month_09.Day_13.Demo01.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Demo03Writer\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Year_2022.Month_09.Day_09.Demo04.Demo03Writer\" />\r\n      <module name=\"untitled\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Year_2022.Month_09.Day_09.Demo04.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Demo04Writer\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Year_2022.Month_09.Day_09.Demo04.Demo04Writer\" />\r\n      <module name=\"untitled\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Year_2022.Month_09.Day_09.Demo04.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Demo02JDK7\" />\r\n        <item itemvalue=\"Application.Demo01TryCatch\" />\r\n        <item itemvalue=\"Application.Demo04Writer\" />\r\n        <item itemvalue=\"Application.Demo03Writer\" />\r\n        <item itemvalue=\"Application.Demo02CloseAndFlush\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c853973d-eca7-461c-b332-fed614629060\" name=\"Changes\" comment=\"\" />\r\n      <created>1651719803709</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1651719803709</updated>\r\n      <workItem from=\"1662705420650\" duration=\"10399000\" />\r\n      <workItem from=\"1663035875876\" duration=\"6592000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"测试\">\r\n      <created>1662536962285</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662536962285</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"测试\">\r\n      <created>1662537230663</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662537230663</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"测试\">\r\n      <created>1662705594563</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662705594563</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"测试\">\r\n      <created>1662705692899</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662705692899</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"测试\">\r\n      <created>1662705699641</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662705699641</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"测试\">\r\n      <created>1662708452891</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662708452891</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"练习输入输出流\">\r\n      <created>1662715863296</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1662715863296</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"测试\" />\r\n    <MESSAGE value=\"练习输入输出流\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"练习输入输出流\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/Year_2022/Month_05/Day_12/Demo01/Demo03Recurison.java</url>\r\n          <line>7</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4e3925b9912cf3ed5c6404fd6f24a372d0ddc5de)
++++ b/.idea/workspace.xml	(date 1663058346414)
+@@ -5,14 +5,12 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习输入输出流">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_09/Demo04/Demo04Writer.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo01TryCatch.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo02JDK7.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/属性集" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/untitled/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,6 +31,13 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GithubProjectSettings">
++    <option name="branchProtectionPatterns">
++      <list>
++        <option value="master" />
++      </list>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -65,7 +70,8 @@
+     "node.js.selected.package.tslint": "(autodetect)",
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2"
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "File.Encoding"
+   },
+   "keyToStringList": {
+     "DatabaseDriversLRU": [
+@@ -75,71 +81,20 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_13" />
+       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09\Demo03" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Demo02JDK7">
+-    <configuration name="Demo01TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo01.Demo01TryCatch" />
+-      <module name="untitled" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo01.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="Demo02CloseAndFlush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_09.Demo04.Demo02CloseAndFlush" />
+-      <module name="untitled" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Year_2022.Month_09.Day_09.Demo04.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="Demo02JDK7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo01.Demo02JDK7" />
+-      <module name="untitled" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo01.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="Demo03Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_09.Demo04.Demo03Writer" />
++  <component name="RunManager">
++    <configuration name="Demo01Properties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo02.Demo01Properties" />
+       <module name="untitled" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Year_2022.Month_09.Day_09.Demo04.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="Demo04Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_09.Demo04.Demo04Writer" />
+-      <module name="untitled" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Year_2022.Month_09.Day_09.Demo04.*" />
++          <option name="PATTERN" value="Year_2022.Month_09.Day_13.Demo02.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -149,11 +104,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Demo02JDK7" />
+-        <item itemvalue="Application.Demo01TryCatch" />
+-        <item itemvalue="Application.Demo04Writer" />
+-        <item itemvalue="Application.Demo03Writer" />
+-        <item itemvalue="Application.Demo02CloseAndFlush" />
++        <item itemvalue="Application.Demo01Properties" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -166,7 +117,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1651719803709</updated>
+       <workItem from="1662705420650" duration="10399000" />
+-      <workItem from="1663035875876" duration="6592000" />
++      <workItem from="1663035875876" duration="11362000" />
+     </task>
+     <task id="LOCAL-00001" summary="测试">
+       <created>1662536962285</created>
+@@ -217,7 +168,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1662715863296</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="练习输入输出流">
++      <created>1663053255445</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1663053255445</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/src/main/java/org/example/ByteUtil.java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 4e3925b9912cf3ed5c6404fd6f24a372d0ddc5de)
++++ b/.idea/encodings.xml	(date 1663057620855)
+@@ -1,6 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="Encoding">
++  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
++    <file url="file://$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/src/main/java/org/example/ByteUtil.java" charset="UTF-8" />
++    <file url="PROJECT" charset="UTF-8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Year_2022.Month_09.Day_13.Demo01;\r\n\r\n/**\r\n * @author liulihua\r\n * @date 2022/9/13 14:58\r\n * JDk9新特性\r\n * try前面定义流对象\r\n * 在try后面的（）中可以直接引入流对象的名称（变量名）\r\n * 在try代码执行完毕之后，流对象也可以释放掉，不用写finally\r\n * 格式：\r\n *      A a = new A();\r\n *      B b = new B();\r\n *      t\r\n */\r\npublic class Demo03JDK9 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java b/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java
+--- a/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java	(revision 4e3925b9912cf3ed5c6404fd6f24a372d0ddc5de)
++++ b/src/main/java/Year_2022/Month_09/Day_13/Demo01/Demo03JDK9.java	(date 1663053506623)
+@@ -1,5 +1,10 @@
+ package Year_2022.Month_09.Day_13.Demo01;
+ 
++import java.io.FileInputStream;
++import java.io.FileNotFoundException;
++import java.io.FileOutputStream;
++import java.io.IOException;
++
+ /**
+  * @author liulihua
+  * @date 2022/9/13 14:58
+@@ -10,7 +15,25 @@
+  * 格式：
+  *      A a = new A();
+  *      B b = new B();
+- *      t
++ *
+  */
+ public class Demo03JDK9 {
++    public static void main(String[] args) throws FileNotFoundException {
++
++        //创建一个字节输入流对象，构造方法放读取的数据源
++        FileInputStream fis = new FileInputStream("E:\\home\\yj\\test\\file\\a.txt");
++        //创建一个字节输出流对象，构造方法放读取的数据源
++        FileOutputStream fos = new FileOutputStream("E:\\home\\yj\\test\\file\\b.txt");
++        try(fis;fos){
++            byte [] data = new byte[1024];
++            int len = 0;
++            while ((len = fis.read(data))!=-1){
++                fos.write(data,0,len);
++            }
++        }catch (IOException e ){
++            System.out.println(e);
++        }
++
++
++    }
+ }
+Index: src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java b/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java
+new file mode 100644
+--- /dev/null	(date 1663058346321)
++++ b/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java	(date 1663058346321)
+@@ -0,0 +1,46 @@
++package Year_2022.Month_09.Day_13.Demo02;
++
++import java.util.Properties;
++import java.util.Set;
++
++/**
++ * @author liulihua
++ * @date 2022/9/13 15:20
++ * java.util.Properties集合 extends Hashtable<k,v> implements Map<k,v>
++ *  Properties类表示了一个持久的属性集。Properties 可保存在流中或从流中加载。
++ *  Properties集合是一个唯一和Io流像结合的集合
++ *      可以使用Properties集合中的store,把集合中的临时数据，持久化写入到硬盘中储存
++ *      可以使用Properties集合中的load,把硬盘中保存的文件（键值对），读取到集合中使用
++ *      属性列表中每个键及其对应值都是一个字符串
++ *           Properties集合是一个双列集合，key和value默认都是字符串
++ *
++ */
++public class Demo01Properties {
++    public static void main(String[] args) {
++        show01();
++    }
++    /**
++     * 使用Properties集合存储数据，遍历取出Properties集合中的数据
++     * Properties集合是一个双列集合key和value默认都是字符串
++     * Properties集合有一些操作字符串的特有方法
++     *      Object setProperty(String key,String value)调用Hashtable的方法put
++     *      Object getProperty(String key)通过key找到value值，此方法相当于Map集合中的get(key)方法
++     *      Set<String> stringPropertyNames()返回此属性列表中的键集，其中该键及对应值是字符串，此方法相当于Map集合中的keySet方法
++     * */
++    private static void show01() {
++        //创建Properties集合对象
++        Properties prop = new Properties();
++        //使用setProperty往集合中添加数据
++        prop.setProperty("远辰","176");
++        prop.setProperty("知非","177");
++        prop.setProperty("xxx","178");
++        //使用stringPropertyNames把集合中的键存入一个set集合
++        Set<String> set = prop.stringPropertyNames();
++        //遍历set集合
++        for (String key : set) {
++            String value = prop.getProperty(key);
++            System.out.println(key+":"+value);
++        }
++
++    }
++}
+\ No newline at end of file
+Index: src/main/java/Year_2022/Month_09/Day_13/Demo02/属性集
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Year_2022/Month_09/Day_13/Demo02/属性集 b/src/main/java/Year_2022/Month_09/Day_13/Demo02/属性集
+new file mode 100644
+--- /dev/null	(date 1663053584388)
++++ b/src/main/java/Year_2022/Month_09/Day_13/Demo02/属性集	(date 1663053584388)
+@@ -0,0 +1,25 @@
++
++
++
++
++
++
++
++
++属性集集合
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
