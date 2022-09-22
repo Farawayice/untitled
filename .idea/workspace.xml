@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习输入输出流">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989144c-4054-4c3f-9b23-535b2dec899b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d989144c-4054-4c3f-9b23-535b2dec899b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09\Demo03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01Properties">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Demo01Properties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo02.Demo01Properties" />
       <module name="untitled" />
@@ -196,7 +192,10 @@
       <updated>1651719803709</updated>
       <workItem from="1662705420650" duration="10399000" />
       <workItem from="1663035875876" duration="6592000" />
-      <workItem from="1663058965950" duration="1348000" />
+      <workItem from="1663058965950" duration="2440000" />
+      <workItem from="1663121359263" duration="1660000" />
+      <workItem from="1663147759646" duration="105000" />
+      <workItem from="1663832655839" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663058491710</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="练习输入输出流">
+      <created>1663060565330</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663060565330</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
