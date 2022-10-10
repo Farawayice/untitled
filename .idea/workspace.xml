@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习输入输出流">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_09/Day_13/Demo02/Demo01Properties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09\Demo03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.Demo01Properties">
     <configuration name="Demo01Properties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo02.Demo01Properties" />
       <module name="untitled" />
@@ -149,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Year_2022.Month_09.Day_13.Demo02.test" />
@@ -175,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo01Properties" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Demo01TryCatch" />
         <item itemvalue="Application.Demo02JDK7" />
         <item itemvalue="Application.Demo04Writer" />
-        <item itemvalue="Application.Demo03Writer" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1663058965950" duration="2440000" />
       <workItem from="1663121359263" duration="1660000" />
       <workItem from="1663147759646" duration="105000" />
-      <workItem from="1663832655839" duration="1366000" />
+      <workItem from="1663832655839" duration="1890000" />
+      <workItem from="1665366611986" duration="1943000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663835399444</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="配置">
+      <created>1663837308960</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663837308960</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +319,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
     <MESSAGE value="练习输入输出流" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习输入输出流" />
+    <MESSAGE value="配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
