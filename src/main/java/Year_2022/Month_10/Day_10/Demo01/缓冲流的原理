@@ -1,0 +1,26 @@
+
+
+使用基本的字节输入流，读取文件
+
+FileInputStream
+
+int len = fls.reda();
+
+            A
+            B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
