@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习输入输出流">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/workTest/RealtimeMonitorDataVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/workTest/data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/workTest/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/workTest/userData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/workTest/批量导出类.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="数采项目模拟类">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Demo01FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Demo02OutputStreamWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Demo03InputStreamReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/字符编码和字符集" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Demo01ObjectOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Demo02ObjectInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/序列化和反序列化" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,16 +109,17 @@
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09\Demo03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Year_2022.Month_12.Day_05.Demo01" />
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test.workTest.test">
-    <configuration name="批量导出类" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.workTest.批量导出类" />
+  <component name="RunManager" selected="应用程序.Demo02ObjectInputStream">
+    <configuration name="Demo01ObjectOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_12.Day_05.Demo01.Demo01ObjectOutputStream" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.workTest.*" />
+          <option name="PATTERN" value="Year_2022.Month_12.Day_05.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo04BufferedReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_10.Day_10.Demo02.Demo04BufferedReader" />
+    <configuration name="Demo02ObjectInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_12.Day_05.Demo01.Demo02ObjectInputStream" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2022.Month_10.Day_10.Demo02.*" />
+          <option name="PATTERN" value="Year_2022.Month_12.Day_05.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo05Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_10.Day_10.Demo02.Demo05Test" />
+    <configuration name="Demo02OutputStreamWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_11.Day_21.Demo01.Demo02OutputStreamWriter" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2022.Month_10.Day_10.Demo02.*" />
+          <option name="PATTERN" value="Year_2022.Month_11.Day_21.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="Demo03InputStreamReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_11.Day_21.Demo01.Demo03InputStreamReader" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Year_2022.Month_11.Day_21.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.workTest.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.workTest.test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_11.Day_21.Demo01.Test" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.workTest.*" />
+          <option name="PATTERN" value="Year_2022.Month_11.Day_21.Demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,16 +180,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.Test.workTest.test" />
-      <item itemvalue="应用程序.Test.批量导出类" />
-      <item itemvalue="应用程序.Demo04BufferedReader" />
-      <item itemvalue="应用程序.Demo05Test" />
-      <item itemvalue="应用程序.Main" />
+      <item itemvalue="应用程序.Demo01ObjectOutputStream" />
+      <item itemvalue="应用程序.Demo02ObjectInputStream" />
+      <item itemvalue="应用程序.Demo02OutputStreamWriter" />
+      <item itemvalue="应用程序.Demo03InputStreamReader" />
+      <item itemvalue="应用程序.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Test.workTest.test" />
-        <item itemvalue="应用程序.Test.批量导出类" />
+        <item itemvalue="应用程序.Demo02ObjectInputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,25 @@
       <workItem from="1666785601640" duration="13000" />
       <workItem from="1666785714238" duration="11000" />
       <workItem from="1666787039466" duration="1873000" />
-      <workItem from="1666830280481" duration="5492000" />
+      <workItem from="1666830280481" duration="6593000" />
+      <workItem from="1666947534389" duration="1150000" />
+      <workItem from="1667191161777" duration="2148000" />
+      <workItem from="1667380236002" duration="485000" />
+      <workItem from="1667380730801" duration="16000" />
+      <workItem from="1667541966758" duration="1671000" />
+      <workItem from="1667553391783" duration="596000" />
+      <workItem from="1667866344820" duration="22000" />
+      <workItem from="1668480231754" duration="54000" />
+      <workItem from="1669015915868" duration="5070000" />
+      <workItem from="1670209781787" duration="7732000" />
+      <workItem from="1675129396241" duration="81000" />
+      <workItem from="1675228468876" duration="1017000" />
+      <workItem from="1675322939035" duration="1177000" />
+      <workItem from="1675400664591" duration="985000" />
+      <workItem from="1676279654669" duration="669000" />
+      <workItem from="1676333885232" duration="3633000" />
+      <workItem from="1676420801052" duration="125000" />
+      <workItem from="1677571718670" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -317,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665394241932</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="数采项目模拟类">
+      <created>1666856068289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666856068289</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +381,8 @@
     <MESSAGE value="测试" />
     <MESSAGE value="配置" />
     <MESSAGE value="练习输入输出流" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习输入输出流" />
+    <MESSAGE value="数采项目模拟类" />
+    <option name="LAST_COMMIT_MESSAGE" value="数采项目模拟类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -365,6 +392,10 @@
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.NotSerializableException" package="java.io" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -1,0 +1,60 @@
+Person p = new Person("名字",10);
+把对象以流的方式，写入到文件中保存，叫做写对象，也叫做对象的序列化
+对象中包含的不仅仅是字符，使用字节流
+
+ObjectOutputStream :对象的序列化流
+
+writeObject(p);
+写文件
+
+
+
+把文件中保存的对象，已流的方式读取出来，叫做流对象，也叫对象的反序列化
+读取的文件保存的都是字节，使用字节流
+ObjectInputStream :对象的反序列化
+
+Object obj = new Person; == Object  obj=readObject("序列化的文件");
+
+
+
+
+public class Person implements Serializable{
+    private String name;
+    private int age;
+    //构造方法 set方法/get方法，toString方法
+}
+编译器（javac.exe）会把Person.java文件编译生成Person.class
+Person类实现了Serializable接口，就会根据类的顶一个给Person.class文件,添加一个序列号
+
+serialVersionUID=-7850165007990388246
+Person.class
+
+序列化 |
+      |
+      V
+new Person("远辰"，12)；
+serialVersionUID=-7850165007990388246
+Person.txt
+反序列化
+
+反序列化的时候，会使用Person.class文件的序列号和Person.txt文件中的序列化号比较
+如果是一样的，则反序列化成功
+如果是不一样的，则抛出序列化冲突异常InvalidClassException
+
+解决方法，手动添加一个序列号
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
