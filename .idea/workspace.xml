@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="数采项目模拟类">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Demo01FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Demo02OutputStreamWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Demo03InputStreamReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/Demo01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_11/Day_21/字符编码和字符集" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Demo01ObjectOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Demo02ObjectInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/序列化和反序列化" afterDir="false" />
+    <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15c49e245638425c837a42c536862735cd7bdbc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af7c7614e29f87c248adc056c9800f8be1f2ecfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_4/day_03/test/Demo_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_4/day_04/main/Demo01PrintStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_4/day_04/main/Demo02PrintStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_4/day_07/软件介绍" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Demo02ObjectInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/Demo01/Demo02ObjectInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/序列化和反序列化" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Year_2022/Month_12/Day_05/序列化和反序列化" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -74,34 +77,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/工作/HuanJing/untitled/src/main/java/Year_2022/Month_10/Day_10&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "E:/工作/HuanJing/untitled/src/main/java/Year_2023/Demo_4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "File.Encoding"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_4" />
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_4\day_04" />
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_10\Day_10" />
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09" />
     </key>
@@ -113,13 +119,26 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Demo02ObjectInputStream">
+  <component name="RunManager" selected="应用程序.Demo02PrintStream">
     <configuration name="Demo01ObjectOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Year_2022.Month_12.Day_05.Demo01.Demo01ObjectOutputStream" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Year_2022.Month_12.Day_05.Demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01PrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_4.day_04.main.Demo01PrintStream" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Year_2023.Demo_4.day_04.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02OutputStreamWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_11.Day_21.Demo01.Demo02OutputStreamWriter" />
+    <configuration name="Demo02PrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_4.day_04.main.Demo02PrintStream" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2022.Month_11.Day_21.Demo01.*" />
+          <option name="PATTERN" value="Year_2023.Demo_4.day_04.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,25 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03InputStreamReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_11.Day_21.Demo01.Demo03InputStreamReader" />
+    <configuration name="Demo_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_4.day_03.test.Demo_Test" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2022.Month_11.Day_21.Demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2022.Month_11.Day_21.Demo01.Test" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Year_2022.Month_11.Day_21.Demo01.*" />
+          <option name="PATTERN" value="Year_2023.Demo_4.day_03.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,15 +186,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.Demo01PrintStream" />
+      <item itemvalue="应用程序.Demo02PrintStream" />
+      <item itemvalue="应用程序.Demo_Test" />
       <item itemvalue="应用程序.Demo01ObjectOutputStream" />
       <item itemvalue="应用程序.Demo02ObjectInputStream" />
-      <item itemvalue="应用程序.Demo02OutputStreamWriter" />
-      <item itemvalue="应用程序.Demo03InputStreamReader" />
-      <item itemvalue="应用程序.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Demo02PrintStream" />
+        <item itemvalue="应用程序.Demo01PrintStream" />
+        <item itemvalue="应用程序.Demo_Test" />
         <item itemvalue="应用程序.Demo02ObjectInputStream" />
+        <item itemvalue="应用程序.Demo01ObjectOutputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +247,9 @@
       <workItem from="1676333885232" duration="3633000" />
       <workItem from="1676420801052" duration="125000" />
       <workItem from="1677571718670" duration="701000" />
+      <workItem from="1680488940490" duration="5709000" />
+      <workItem from="1680569853950" duration="6808000" />
+      <workItem from="1680843233851" duration="4890000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -343,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666856068289</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="练习">
+      <created>1680488996760</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680488996760</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +402,8 @@
     <MESSAGE value="配置" />
     <MESSAGE value="练习输入输出流" />
     <MESSAGE value="数采项目模拟类" />
-    <option name="LAST_COMMIT_MESSAGE" value="数采项目模拟类" />
+    <MESSAGE value="练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

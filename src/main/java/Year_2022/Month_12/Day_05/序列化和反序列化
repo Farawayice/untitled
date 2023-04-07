@@ -42,6 +42,9 @@ Person.txt
 如果是不一样的，则抛出序列化冲突异常InvalidClassException
 
 解决方法，手动添加一个序列号
+格式在Serializable接口规定：
+    可序列化类可以通过声明“serialVersionUID”的字段(该字段必须是静态(static)、最终(final)的long型字段)显式声明其自己的serialVersionUID：
+            static final long serialVersionUID = 42L;
 
 
 
