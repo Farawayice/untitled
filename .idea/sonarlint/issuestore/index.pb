@@ -19,3 +19,13 @@ j
 :src/main/java/Year_2022/Month_12/Day_05/Demo01/Person.java,e\f\ef61636ce18940f3ef912b6d3a3d997d4a45941f
 |
 Lsrc/main/java/Year_2022/Month_12/Day_05/Demo01/Demo01ObjectOutputStream.java,f\a\fabe03810dd68e74c48681f4b95989bde325a326
+p
+@src/main/java/Year_2022/Month_12/Day_05/序列化和反序列化,2\4\24204e31c9751689c2628a2e51f3c7bc310f0e23
+q
+Asrc/main/java/Year_2023/Demo_4/day_04/main/Demo01PrintStream.java,1\4\1488a8155615326d7f8d9ea251e6d27403f00f74
+{
+Ksrc/main/java/Year_2022/Month_12/Day_05/Demo01/Demo02ObjectInputStream.java,a\1\a1db1627e99716161a196d3e011c4252c8708bd0
+q
+Asrc/main/java/Year_2023/Demo_4/day_04/main/Demo02PrintStream.java,e\e\ee009a36b8b5cccf608bf13885df042f0ebb356b
+i
+9src/main/java/Year_2023/Demo_4/day_03/test/Demo_Test.java,2\3\23fbce34ef8828c9ff97e95dff90620f2c9a23bc
