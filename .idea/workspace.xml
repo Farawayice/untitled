@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/ASCIIStrCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/CharUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/ZipFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/java 批量下载文件" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/subin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/XY_test/Template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/XY_test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day03/FeilUpload/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day03/FeilUpload/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day03/TCP通信的文件上传案例" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day28/IP相关" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day28/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day28/TCPServers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_6/Day28/TCP通讯程序" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_7/Day03/FeilUpload/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_7/Day03/FeilUpload/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_7/Day03/TCP通信的文件上传案例" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_7/Day05/FeilUpload/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_7/Day05/FeilUpload/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2023/Demo_7/Day05/优化上传逻辑" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -31,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -93,8 +105,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "E:/工作/HuanJing/untitled/src/main/resources",
+    "last_opened_file_path": "E:/工作/HuanJing/untitled/src/main/java/Test/Test/XY_test",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -116,13 +129,15 @@
       <recent name="org.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Test\Test\XY_test" />
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_7\Day05" />
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_7" />
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023" />
       <recent name="E:\工作\HuanJing\untitled\src\main\resources" />
-      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_4" />
-      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_4\day_04" />
-      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_10\Day_10" />
-      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Test\Test\XY_test" />
+      <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2023\Demo_7\Day05" />
       <recent name="E:\工作\HuanJing\untitled\src\main\java\Year_2022\Month_09\Day_09\Demo03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -131,13 +146,13 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.subin">
-    <configuration name="Demo01PrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_4.day_04.main.Demo01PrintStream" />
+  <component name="RunManager" selected="应用程序.Test.Test.XY_test.test">
+    <configuration name="Test.Test.XY_test.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test.XY_test.test" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2023.Demo_4.day_04.main.*" />
+          <option name="PATTERN" value="Test.Test.XY_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02PrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_4.day_04.main.Demo02PrintStream" />
+    <configuration name="XMlParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test.XY_test.XMlParse" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Year_2023.Demo_4.day_04.main.*" />
+          <option name="PATTERN" value="Test.Test.XY_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.Test.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test.test" />
+    <configuration name="Year_2023.Demo_7.Day03.FeilUpload.TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_7.Day03.FeilUpload.TCPClient" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.Test.*" />
+          <option name="PATTERN" value="Year_2023.Demo_7.Day03.FeilUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test.subin" />
+    <configuration name="Year_2023.Demo_7.Day05.FeilUpload.TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_7.Day05.FeilUpload.TCPClient" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.Test.*" />
+          <option name="PATTERN" value="Year_2023.Demo_7.Day05.FeilUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excell.test" />
+    <configuration name="Year_2023.Demo_7.Day05.FeilUpload.TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Year_2023.Demo_7.Day05.FeilUpload.TCPServer" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excell.*" />
+          <option name="PATTERN" value="Year_2023.Demo_7.Day05.FeilUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +213,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.subin" />
-      <item itemvalue="应用程序.Test.Test.test" />
-      <item itemvalue="应用程序.test" />
-      <item itemvalue="应用程序.Demo01PrintStream" />
-      <item itemvalue="应用程序.Demo02PrintStream" />
+      <item itemvalue="应用程序.Test.Test.XY_test.test" />
+      <item itemvalue="应用程序.XMlParse" />
+      <item itemvalue="应用程序.Year_2023.Demo_7.Day03.FeilUpload.TCPClient" />
+      <item itemvalue="应用程序.Year_2023.Demo_7.Day05.FeilUpload.TCPClient" />
+      <item itemvalue="应用程序.Year_2023.Demo_7.Day05.FeilUpload.TCPServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.subin" />
-        <item itemvalue="应用程序.Test.Test.test" />
-        <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.Demo02PrintStream" />
-        <item itemvalue="应用程序.Demo01PrintStream" />
+        <item itemvalue="应用程序.Test.Test.XY_test.test" />
+        <item itemvalue="应用程序.XMlParse" />
+        <item itemvalue="应用程序.Year_2023.Demo_7.Day05.FeilUpload.TCPServer" />
+        <item itemvalue="应用程序.Year_2023.Demo_7.Day05.FeilUpload.TCPClient" />
+        <item itemvalue="应用程序.Year_2023.Demo_7.Day03.FeilUpload.TCPClient" />
       </list>
     </recent_temporary>
   </component>
@@ -276,6 +291,18 @@
       <workItem from="1684811703915" duration="3290000" />
       <workItem from="1684887756631" duration="1784000" />
       <workItem from="1685520048637" duration="1035000" />
+      <workItem from="1685524745821" duration="793000" />
+      <workItem from="1685578542799" duration="632000" />
+      <workItem from="1685580483333" duration="632000" />
+      <workItem from="1687251006259" duration="694000" />
+      <workItem from="1687307296532" duration="21000" />
+      <workItem from="1687934996753" duration="6789000" />
+      <workItem from="1688348357424" duration="6619000" />
+      <workItem from="1688526580741" duration="6896000" />
+      <workItem from="1689039473341" duration="4602000" />
+      <workItem from="1689216318814" duration="7128000" />
+      <workItem from="1689294930515" duration="3171000" />
+      <workItem from="1689553680772" duration="19532000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -396,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680858824796</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="练习">
+      <created>1685524764694</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685524764694</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

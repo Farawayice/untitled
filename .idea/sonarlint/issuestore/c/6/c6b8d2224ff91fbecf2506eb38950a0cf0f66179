@@ -1,0 +1,93 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à­É­
+d
+java:S20945"BRemove this empty class, write its code or make it an "interface".(‡ÛŸÚıÿÿÿÿ8ÌåÌÛû0
+Z
+java:S1128"8Remove this unused import 'java.io.BufferedInputStream'.(Š—€åûÿÿÿÿ8®Úêˆ‡1
+[
+java:S1128"9Remove this unused import 'java.io.BufferedOutputStream'.(«èÍôıÿÿÿÿ8®Úêˆ‡1
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8®Úêˆ‡1
+O
+java:S1128"3Remove this unused import 'java.io.BufferedWriter'.(¬õº/8®Úêˆ‡1
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8®Úêˆ‡1
+L
+java:S1128"/Remove this unused import 'java.io.FileFilter'.(ÔÅÑ—8®Úêˆ‡1
+Q
+java:S1128	"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8¯Úêˆ‡1
+\
+java:S1128
+":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8¯Úêˆ‡1
+Q
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8¯Úêˆ‡1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¯Úêˆ‡1
+M
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º8¯Úêˆ‡1
+S
+java:S1128"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8¯Úêˆ‡1
+M
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8¯Úêˆ‡1
+Q
+java:S1128"5Remove this unused import 'java.io.RandomAccessFile'.(‰Œ)8¯Úêˆ‡1
+H
+java:S1128"+Remove this unused import 'java.io.Reader'.(µû¨é8¯Úêˆ‡1
+F
+java:S1128")Remove this unused import 'java.net.URI'.(Ö¦¨°8¯Úêˆ‡1
+K
+java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8¯Úêˆ‡1
+P
+java:S1128"3Remove this unused import 'java.net.URLConnection'.(š¿šó8°Úêˆ‡1
+W
+java:S1128"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸıÿÿÿÿ8°Úêˆ‡1
+R
+java:S1128"5Remove this unused import 'java.nio.file.CopyOption'.(õÅÛ8°Úêˆ‡1
+W
+java:S1128":Remove this unused import 'java.nio.file.DirectoryStream'.(Ë“ÚÃ8°Úêˆ‡1
+W
+java:S1128":Remove this unused import 'java.nio.file.FileVisitOption'.( ´¥‚8°Úêˆ‡1
+W
+java:S1128":Remove this unused import 'java.nio.file.FileVisitResult'.(ğ‘Â¹8°Úêˆ‡1
+S
+java:S1128"6Remove this unused import 'java.nio.file.FileVisitor'.(˜ıÍ¨8°Úêˆ‡1
+M
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8°Úêˆ‡1
+W
+java:S1128"5Remove this unused import 'java.nio.file.LinkOption'.(‹Ä¥Äşÿÿÿÿ8°Úêˆ‡1
+L
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8°Úêˆ‡1
+M
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8±Úêˆ‡1
+Y
+java:S1128"<Remove this unused import 'java.nio.file.SimpleFileVisitor'.(¹ĞïÍ8±Úêˆ‡1
+Z
+java:S1128 "=Remove this unused import 'java.nio.file.StandardCopyOption'.(×ÀòÔ8±Úêˆ‡1
+j
+java:S1128!"HRemove this unused import 'java.nio.file.attribute.BasicFileAttributes'.(“ããÿÿÿÿÿ8±Úêˆ‡1
+Q
+java:S1128""4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜8±Úêˆ‡1
+M
+java:S1128#"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8±Úêˆ‡1
+S
+java:S1128$"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8±Úêˆ‡1
+H
+java:S1128%"+Remove this unused import 'java.util.Date'.(¸…¼ü8±Úêˆ‡1
+P
+java:S1128&".Remove this unused import 'java.util.EnumSet'.(ÍäÚ“úÿÿÿÿ8±Úêˆ‡1
+M
+java:S1128'"1Remove this unused import 'java.util.LinkedList'.(»Äğ18±Úêˆ‡1
+M
+java:S1128("+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8±Úêˆ‡1
+L
+java:S1128)"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8²Úêˆ‡1
+K
+java:S1128*".Remove this unused import 'java.util.Objects'.(¼¸õ›8²Úêˆ‡1
+O
+java:S1128+"2Remove this unused import 'java.util.jar.JarFile'.(¾¾”ß8²Úêˆ‡1
+V
+java:S1128,"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8²Úêˆ‡1
+R
+java:S1128-"0Remove this unused import 'java.util.zip.CRC32'.(Šô½ùÿÿÿÿ8²Úêˆ‡1
+P
+java:S1128."3Remove this unused import 'java.util.zip.Checksum'.(ş¸ô8²Úêˆ‡1

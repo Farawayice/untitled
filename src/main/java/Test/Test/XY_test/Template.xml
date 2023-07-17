@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Template:模板 -->
+<!-- name:模板名称，不能重复 -->
+<!-- type:模板类型，water 水， smoke 烟气-->
+<Template name="" type="water">
+	<!-- 分包：每组执行一条modbus指令 -->
+	<Groups>
+		<!-- Group:分包 -->
+		<!-- registerAddress:开始寄存器地址 -->
+		<!-- functionCode:功能码 -->
+		<!-- registerNum:多少个寄存器 -->
+		<Group registerAddress="0" functionCode="4" registerNum="10">
+			<!-- index:从registerAddress开始第几个字节（从0开始） -->
+			<!-- polCode:监测因子对应的编码 -->
+			<!-- dataType:数据类型 
+				单字节整形 1
+				双字节整形 2
+				四字节整形 3
+				双字节浮点型 11
+				四字节浮点型 12
+				时间格式[00 17 00 07 00 06 00 10 00 1E 00 00]=[2023-7-6 16:30:00]（占用6个寄存器） 21
+				时间格式[17 07 06 10 1E 00]=[2023-7-6 16:30:00]（占用3个寄存器） 22
+				时间格式以bcd码方式存储的字符串 [23 07 06 16 30 00]=[2023-7-6 16:30:00]（占用3个寄存器） 23
+			-->
+			<!-- transFunc:转换公式 
+				 如果有需要转换值的，写上对应的方法名，否则为空，用于扩展计算
+			-->
+			<Factor index="0" dataType=""  polCode="w01010"  transFunc=""></Factor>
+			<WorkState index="0" dataType="2">
+				<Map value="1" to="" dataFlag="D"></Map>
+				<Map value="2" to="" dataFlag="M"></Map>
+				<Map value="3" to="" dataFlag="T"></Map>
+			</WorkState>
+			<Warning index="0" dataType="">
+					<Map value="1" to="0"></Map>
+					<Map value="2" to="99"></Map>
+			</Warning>
+			<!-- paramType
+				水参数
+				zeroCalibrationTime 零点校准时间
+				intercept 截距
+				intercept1 截距1
+				zeroCalibrationConcentration 零点校准浓度
+				zeroCalibrationRawValue 零点校准原始值
+				zeroCalibrationDrift 零点校准漂移
+				rangeCalibrationTime 量程校准时间
+				rangeCalibrationConcentration 量程校准浓度
+				rangeCalibrationConcentration1 量程校准浓度1
+				rangeCalibrationRawValue 量程校准原始值
+				rangeCalibrationRawValue1 量程校准原始值1
+				rangeCalibrationDrift 量程校准漂移
+				rangeCalibrationDrift1 量程校准漂移1
+				measurementInterval 测量间隔Min
+				measurementRawValue 测量原始值
+				currentRange 当前量程
+				slope 斜率
+				slope1 斜率1
+				correctionSlope 校正因子（修正斜率）
+				correctionIntercept 修正因子（修正截距）
+				digestionTime 消解时长Min
+				digestionTemp 消解温度
+				coolingTime 冷却时长
+				calibrationTime 硫酸亚铁铵标定时间Min
+				ammoniumCon 硫酸亚铁铵浓度g/l
+				ammoniumVolume 空白硫酸亚铁铵标准溶液体积l
+				potassiumCon 重铬酸钾浓度g/l
+				standardTime 标样核查时间
+				percentageStandard 标样核查偏差百分比
+				standardCon 标样核查浓度
+				autoCalibrationTime 自动标定时间
+				烟气参数
+				zeroCalibrationTime 零点校准时间
+				zeroCalibrationCoefficient 零点校准系数
+				zeroCalibrationConcentration 零点校准浓度
+				zeroCalibrationRawValue 零点校准原始值
+				zeroCalibrationDrift 零点校准漂移
+				rangeCalibrationTime 量程校准时间
+				rangeCalibrationCoefficient 量程校准系数
+				rangeCalibrationConcentration 量程校准浓度
+				rangeCalibrationRawValue 量程校准原始值
+				rangeCalibrationDrift 量程校准漂移
+				measurementRawValue 测量原始值
+				dilutionRatio 稀释比
+				range 量程mg/m3
+				pollutionDegree 污染度（浊度法）
+				smoothingTime 平滑时间Min
+				blankIonNumber 空白粒子数（β射线法）
+				ionNumberAfterSampling 采样后粒子数（β射线法）
+				totalSamplingFlow 采样总流量（β射线法）
+				massRatio 采样流量（β射线法）
+				slopeSmoke 斜率
+				interceptSmoke 截距				
+			-->
+			<WorkParam index="0" dataType="" paramType=""></WorkParam>
+			<WorkParam index="5" dataType="" paramType=""></WorkParam>
+		</Group>
+
+		<Group registerAddress="1" functionCode="5" registerNum="101">
+
+		</Group>
+	</Groups>
+</Template>

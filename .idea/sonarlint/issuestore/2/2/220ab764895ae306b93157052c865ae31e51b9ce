@@ -1,0 +1,35 @@
+
+a	java:S112î"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+F
+java:S3740´"/Provide the parametrized type for this generic.(§¸ª¸
+o
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(é…³à
+‹
+java:S1319J"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ĞÄïêıÿÿÿÿ
+D
+java:S1604µ"(Make this anonymous inner class a lambda(åãò¥üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ò•Ææùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à­É­
+i
+java:S2259©"MA "NullPointerException" could be thrown; "fileInputStream" is nullable here.(Ûû¼­øÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "files".(É’Îê
+Q	java:S125"<This block of commented-out lines of code should be removed.(×ÒÒÀ
+@
+java:S1481"*Remove this unused "files" local variable.(É’Îê
+V	java:S125 "<This block of commented-out lines of code should be removed.(³ùÜ±üÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ä¹¿“
+V	java:S1255"<This block of commented-out lines of code should be removed.(˜ºÖüÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(•Ã¤ıÿÿÿÿ
+M	java:S106>"9Replace this use of System.out or System.err by a logger.(ñ›ù
+Q	java:S125B"<This block of commented-out lines of code should be removed.(ò¯ÆÙ
+Q	java:S125P"<This block of commented-out lines of code should be removed.(†Àû
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(ä¹¿“
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(ëê†•
+M	java:S106p"9Replace this use of System.out or System.err by a logger.(ñ›ù
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(Âµ¢òşÿÿÿÿ
+X	java:S899‚"BDo something with the "boolean" value returned by "createNewFile".(òì¶„
+U
+java:S4719Ú">Replace charset name argument with StandardCharsets.ISO_8859_1(Ôîè
+P
+java:S4719Ú"9Replace charset name argument with StandardCharsets.UTF_8(Ôîè

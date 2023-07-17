@@ -29,3 +29,19 @@ q
 Asrc/main/java/Year_2023/Demo_4/day_04/main/Demo02PrintStream.java,e\e\ee009a36b8b5cccf608bf13885df042f0ebb356b
 i
 9src/main/java/Year_2023/Demo_4/day_03/test/Demo_Test.java,2\3\23fbce34ef8828c9ff97e95dff90620f2c9a23bc
+Z
+*src/main/java/Test/Test/ASCIIStrCache.java,b\c\bc76e9eef43ddaf883040833fef688641ce2761b
+U
+%src/main/java/Test/Test/CharUtil.java,4\f\4fccc5d21d324f800bd542d53e912d206e6d8015
+U
+%src/main/java/Test/Test/FileUtil.java,c\6\c6b8d2224ff91fbecf2506eb38950a0cf0f66179
+U
+%src/main/java/Test/Test/ZipFiles.java,1\e\1e456b67a02092cd46b81f623235e71765516296
+_
+/src/main/java/Test/Test/java 批量下载文件,c\c\cc52e9920c7f1b98e80d2f2ca2de848f57bf9ccb
+R
+"src/main/java/Test/Test/subin.java,2\2\220ab764895ae306b93157052c865ae31e51b9ce
+b
+2src/main/java/Year_2023/Demo_4/day_07/软件介绍,e\a\ea119209ed8c8e849f1aadd1dd8a6ccadab5d11c
+Q
+!src/main/java/Test/Test/test.java,f\3\f31756d0e607f49601efc7e28a5beafe150197f9
