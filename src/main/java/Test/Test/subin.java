@@ -151,10 +151,11 @@ public class subin {
             for (File srcFile:srcFiles) {
                 // 将源文件数组中的当前文件读入 FileInputStream 流中
                 fileInputStream = new FileInputStream(srcFile);
+
                 // 实例化 ZipEntry 对象，源文件数组中的当前文件，加个i防止有重名文件压缩失败
                 zipEntry = new ZipEntry("[" + i + "]" +srcFile.getName());
-
                 zipOutputStream.putNextEntry(zipEntry);
+
                 // 该变量记录每次真正读的字节个数
                 int len;
                 // 定义每次读取的字节数组

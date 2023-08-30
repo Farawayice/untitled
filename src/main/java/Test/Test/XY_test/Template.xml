@@ -26,14 +26,25 @@
 				 如果有需要转换值的，写上对应的方法名，否则为空，用于扩展计算
 			-->
 			<Factor index="0" dataType=""  polCode="w01010"  transFunc=""></Factor>
-			<WorkState index="0" dataType="2">
-				<Map value="1" to="" dataFlag="D"></Map>
-				<Map value="2" to="" dataFlag="M"></Map>
-				<Map value="3" to="" dataFlag="T"></Map>
+			<WorkState index = "0" dataType="1">
+				<Maps>
+					<Map value="1" to="aaa" ></Map>
+					<Map value="2" to="bbb" ></Map>
+					<Map value="3" to="ccc" ></Map>
+				</Maps>
 			</WorkState>
-			<Warning index="0" dataType="">
+			<DataFlag index = "1" dataType = "1">
+				<Maps>
+					<Map value="1" to= "D"></Map>
+					<Map value="2" to= "M"></Map>
+					<Map value="3" to= "T"></Map>
+				</Maps>
+			</DataFlag>
+			<Warning index="0" dataType="2">
+				<Maps>
 					<Map value="1" to="0"></Map>
 					<Map value="2" to="99"></Map>
+				</Maps>
 			</Warning>
 			<!-- paramType
 				水参数
@@ -91,12 +102,27 @@
 				slopeSmoke 斜率
 				interceptSmoke 截距				
 			-->
-			<WorkParam index="0" dataType="" paramType=""></WorkParam>
-			<WorkParam index="5" dataType="" paramType=""></WorkParam>
+			<WorkParam index="0" dataType="" paramType="" polCode="" ></WorkParam>
+			<WorkParam index="5" dataType="" paramType="" polCode="" ></WorkParam>
 		</Group>
 
 		<Group registerAddress="1" functionCode="5" registerNum="101">
+			<Factor index="22" dataType="3"  polCode="w01011"  transFunc="000">
 
+			</Factor>
+
+			<WorkState index="3" dataType="1">
+				<Maps>
+					<Map value="7" to="" dataFlag="D"></Map>
+					<Map value="8" to="" dataFlag="M"></Map>
+					<Map value="9" to="" dataFlag="T"></Map>
+				</Maps>
+				<Maps>
+					<Map value="10" to="" dataFlag="D"></Map>
+					<Map value="11" to="" dataFlag="M"></Map>
+					<Map value="12" to="" dataFlag="T"></Map>
+				</Maps>
+			</WorkState>
 		</Group>
 	</Groups>
 </Template>

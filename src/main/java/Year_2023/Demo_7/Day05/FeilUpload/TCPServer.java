@@ -34,6 +34,7 @@ public class TCPServer {
          * 有一个客户端上传文件，就保存一个文件
          * */
         while (true) {
+            //监听端口
             Socket socket = server.accept();
             /*
             * 使用多线程技术，提高程序的效率
@@ -77,7 +78,8 @@ public class TCPServer {
                     }finally {
                         try {
                             fos.close();
-                            server.close();
+                            socket.close();//套字节关闭
+//                            server.close();//服务器端关闭
                         } catch (IOException e) {
                             System.out.println("关闭流异常"+e);
                         }
