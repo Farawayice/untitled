@@ -7,35 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="测试">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day15/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day15/MyFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day15/MyFunctionalInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day15/函数式接口" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Consumer/Demo01Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Consumer/Demo02AndThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Consumer/Demo03Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Consumer/消费接口" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Demo02Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Demo02Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Demo04Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/DemoLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/MessageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Supplier/Demo01Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Supplier/Demo02Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/Supplier/生产接口" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day16/函数式编程" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day17/Predicate/Demo01Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day17/Predicate/Demo02Predicate_and.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day17/Predicate/Demo03Predicate_or.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day17/Predicate/Demo04Predicate_negate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Day17/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/Demo_01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Year_2024/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d989144c-4054-4c3f-9b23-535b2dec899b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d989144c-4054-4c3f-9b23-535b2dec899b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/1707997123a1777f9b368b256122ebf874dbc4c6" beforeDir="false" />
+    <list default="true" id="c853973d-eca7-461c-b332-fed614629060" name="Changes" comment="练习">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -60,6 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -110,32 +83,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/工作/HuanJing/untitled/src/main/java/Year_2024/Demo_01/Day16&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "E:/工作/HuanJing/untitled/src/main/java/Year_2024/Demo_01/Day16",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="excell" />
@@ -327,7 +300,8 @@
       <workItem from="1693364797356" duration="6993000" />
       <workItem from="1705368052600" duration="955000" />
       <workItem from="1705389582057" duration="7383000" />
-      <workItem from="1705455765897" duration="5929000" />
+      <workItem from="1705455765897" duration="7607000" />
+      <workItem from="1705482389894" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1662536962285</created>
@@ -462,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689586320422</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="练习">
+      <created>1705480719146</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705480719146</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
