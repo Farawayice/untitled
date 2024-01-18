@@ -1,0 +1,138 @@
+/**
+     *
+     * @param request
+     * @param response
+     * @param filePathList   文件路径集合
+     */
+    @ApiOperation(value = "文件批量下载")
+    @PostMapping("/downLoad/zip")
+    public void download(@RequestBody List<String> filePathList, HttpServletRequest request, final HttpServletResponse response) {
+
+        List<File> resultFileList = new ArrayList<>();
+        File file = null;
+        try {
+            for (String filePath:filePathList) {
+                String fileName =  filePath.substring(filePath.lastIndexOf("/")+1);
+                log.info("文件路径转一下格式");
+                filePath = URLDecoder.decode(filePath, "utf-8");
+				log.info("保存的路径名称");
+                String destFile = "/home/data/" + fileName;
+                log.info("1. 先从资源服务器下载 文件");
+                HttpUtil.downloadFile(filePath , destFile);
+                log.info("2. 返回file");
+                file = new File(destFile);
+                resultFileList.add(file);
+
+            }
+            log.info("3. 把文件压缩进去");
+            File zipFile = new File("/home/data/批量下载.zip");
+            zipFiles(resultFileList,zipFile);
+            log.info("4. 把压缩包的文件流返回前端");
+            FileDownload.downFile(request, response, "批量下载.zip", zipFile);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+/**
+     *
+     * @param srcFiles 要压缩的文件
+     * @param zipFile 压缩后的压缩包
+     */
+public static void zipFiles(List<File> srcFiles, File zipFile) {
+        // 判断压缩后的文件存在不，不存在则创建
+        if (!zipFile.exists()) {
+            try {
+                zipFile.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        // 创建 FileOutputStream 对象
+        FileOutputStream fileOutputStream = null;
+        // 创建 ZipOutputStream
+        ZipOutputStream zipOutputStream = null;
+        // 创建 FileInputStream 对象
+        FileInputStream fileInputStream = null;
+
+        try {
+            // 实例化 FileOutputStream 对象
+            fileOutputStream = new FileOutputStream(zipFile);
+            // 实例化 ZipOutputStream 对象
+            zipOutputStream = new ZipOutputStream(fileOutputStream);
+            // 创建 ZipEntry 对象
+            ZipEntry zipEntry = null;
+            // 遍历源文件数组
+            int i = 1;
+            for (File srcFile:srcFiles) {
+                // 将源文件数组中的当前文件读入 FileInputStream 流中
+                fileInputStream = new FileInputStream(srcFile);
+                // 实例化 ZipEntry 对象，源文件数组中的当前文件，加个i防止有重名文件压缩失败
+                zipEntry = new ZipEntry("[" + i + "]" +srcFile.getName());
+
+                zipOutputStream.putNextEntry(zipEntry);
+                // 该变量记录每次真正读的字节个数
+                int len;
+                // 定义每次读取的字节数组
+                byte[] buffer = new byte[1024];
+                while ((len = fileInputStream.read(buffer)) > 0) {
+                    zipOutputStream.write(buffer, 0, len);
+                }
+                i++;
+            }
+            zipOutputStream.closeEntry();
+            zipOutputStream.close();
+            fileInputStream.close();
+            fileOutputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
+
+
+public static void downFile(HttpServletRequest request, HttpServletResponse response, String filename, File file) throws IOException {
+		//  文件存在才下载
+		if (file.exists()) {
+			OutputStream out = null;
+			FileInputStream in = null;
+			try {
+				// 1.读取要下载的内容
+				in = new FileInputStream(file);
+
+				// 2. 告诉浏览器下载的方式以及一些设置
+				// 解决文件名乱码问题，获取浏览器类型，转换对应文件名编码格式，IE要求文件名必须是utf-8, firefo要求是iso-8859-1编码
+				String agent = request.getHeader("user-agent");
+				if (agent.toLowerCase().contains("Firefox".toLowerCase())) {
+					filename = new String(filename.getBytes("UTF-8"), "iso-8859-1");
+				} else {
+					filename = URLEncoder.encode(filename, "UTF-8");
+				}
+				// 设置下载文件的mineType，告诉浏览器下载文件类型
+				String mineType = request.getServletContext().getMimeType(filename);
+				response.setContentType(mineType);
+				// 设置一个响应头，无论是否被浏览器解析，都下载
+				response.setHeader("Content-disposition", "attachment; filename=" + filename);
+				// 将要下载的文件内容通过输出流写到浏览器
+				out = response.getOutputStream();
+				int len = 0;
+				byte[] buffer = new byte[1024];
+				while ((len = in.read(buffer)) > 0) {
+					out.write(buffer, 0, len);
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			} finally {
+				if (out != null) {
+					out.close();
+				}
+				if (in != null) {
+					in.close();
+				}
+			}
+		}
+	}

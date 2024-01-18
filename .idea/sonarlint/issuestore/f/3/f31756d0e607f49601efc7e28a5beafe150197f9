@@ -1,0 +1,37 @@
+
+J
+java:S37404"/Provide the parametrized type for this generic.(¨´ò´ÿÿÿÿÿ
+J
+java:S37404"/Provide the parametrized type for this generic.(¨´ò´ÿÿÿÿÿ
+J
+java:S3740O"/Provide the parametrized type for this generic.(…¸ú¤úÿÿÿÿ
+E
+java:S3740`"/Provide the parametrized type for this generic.(„Öˆ
+E
+java:S3740d"/Provide the parametrized type for this generic.(ÉÝ©½
+o
+java:S1192"TDefine a constant instead of duplicating this literal "\\D:\\videoType.txt" 3 times.(¯Ü²Êÿÿÿÿÿ
+E
+java:S1066:"/Merge this if statement with the enclosing one.(¹Üà˜
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à­É­
+Y
+java:S18547">Remove this useless assignment to local variable "videoTypes".(‹—ëýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(øÏ…´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊÆ»è
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(è†üËüÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(¬ÿïÔ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(¤Ô¢•
+J
+java:S14817"/Remove this unused "videoTypes" local variable.(‹—ëýÿÿÿÿ
+Q	java:S125>"<This block of commented-out lines of code should be removed.(”ä¼Ø
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(Âáù ÿÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(Îìñ¯úÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(”òºëùÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(»ûÒ÷üÿÿÿÿ
+h	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¸ú¤úÿÿÿÿ
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(Ýýàòüÿÿÿÿ
+E
+java:S2093S"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+V	java:S125j"<This block of commented-out lines of code should be removed.(ÎŸþÿÿÿÿ

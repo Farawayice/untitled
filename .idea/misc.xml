@@ -9,6 +9,18 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$" />
   </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+
+  </component>
+  <dependency>
+    <groupId>com.spring4all</groupId>
+    <artifactId>spring-boot-starter-swagger</artifactId>
+    <version>1.5.1.RELEASE</version>
+  </dependency>
+
 </project>

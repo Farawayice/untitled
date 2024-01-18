@@ -1,0 +1,29 @@
+package Year_2024.Demo_01.Day16;
+
+/**
+ * 日志案例
+ * 发现以下代码存在的一些性能浪费的问题，
+ * 调用showlog方法，传递的第二个参数是一个拼装后的字符串
+ * 先把字符串拼装号，然后在调用showlog方法
+ * showlog方法中如果传递的日志等级不是1级
+ * 那么就不会是如此拼接后的字符串
+ * 所以感觉字符串白拼接了，存在了浪费
+ * @author liulihua
+ * @date 2024/1/16 15:40
+ */
+public class DemoLogger {
+    private static  void showLog(int level,String msg){
+        //对日志的等级进行判断，如果是1级别，那么输出日志信息
+        if (level==1){
+            System.out.println(msg);
+        }
+    }
+
+    public static void main(String[] args) {
+        String msgA = "hello";
+        String msgB = "world";
+        String msgC = "java";
+        showLog(1,msgA+msgB+msgC);
+
+    }
+}

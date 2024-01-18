@@ -1,0 +1,20 @@
+
+l
+java:S1192"VDefine a constant instead of duplicating this literal "2022-10-26 10:20:00.0" 5 times.(­¯Ïª
+q
+java:S1192"VDefine a constant instead of duplicating this literal "2022-10-26 10:17:00.0" 6 times.(‘Ÿà¨þÿÿÿÿ
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦ëÇª
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾¶Œ 
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘
+V	java:S125K"<This block of commented-out lines of code should be removed.(ÅÃýâûÿÿÿÿ
+P	java:S125T"<This block of commented-out lines of code should be removed.(ÃÞó
+P
+java:S2209d"5Change this instance-reference to a static reference.(­†õþÿÿÿÿ
+V	java:S125g"<This block of commented-out lines of code should be removed.(º–±àþÿÿÿÿ
+E
+java:S1481„")Remove this unused "flag" local variable.(ÓŠõúûÿÿÿÿ
+W	java:S125Š"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(½Ãå¦
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ

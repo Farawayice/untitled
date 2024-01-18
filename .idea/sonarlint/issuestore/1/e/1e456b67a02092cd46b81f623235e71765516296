@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à­É­
+\
+java:S1075	"ARefactor your code to get this URI from a customizable parameter.(Û¿œòûÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(çÉïþ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(±Ö‘™

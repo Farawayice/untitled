@@ -1,0 +1,43 @@
+server:
+  port: 8003
+  servlet:
+    context-path: /
+
+spring:
+  # 当前环境名称（注意：不可设置为 test 它是单元测试专用的名称）
+  profiles:
+    active: local
+  application:
+    name: usercenter
+
+# 声明式服务
+feign:
+  # 开启okhttp客户端
+  okhttp:
+    enabled: true
+  httpclient:
+    enabled: false
+
+  # 启用容错保护、断路器
+  hystrix:
+    enabled: true
+
+# 延迟容错机制
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          # 隔离策略（THREAD、SEMAPHORE）
+          strategy: THREAD
+          # 线程超时时间（毫秒）
+          thread:
+            timeoutInMilliseconds: 6000
+mybatis:
+  configration:
+    map-underscore-ro-camel-case: true
+  mapper-locations: classpath:mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.drhb.usercenter.entity  # 注意：对应实体类的路径
+  type-handlers-package: com.drhb.usercenter.common.mybatishandler # 类型映射器
+logging:
+  config: classpath:config/logback-spring.xml

@@ -1,0 +1,44 @@
+
+n	java:S127À"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+8
+java:S1643¡"Use a StringBuilder instead.(¢Äõ¥ÿÿÿÿÿ
+w
+java:S1488¶"[Immediately return this expression instead of assigning it to the temporary variable "crc".(¢¸À‘ÿÿÿÿÿ
+w
+java:S1488Ê"[Immediately return this expression instead of assigning it to the temporary variable "bit".(¹±À‘ùÿÿÿÿ
+o
+java:S1488Õ"YImmediately return this expression instead of assigning it to the temporary variable "i".(ÇÄè
+V	java:S125"<This block of commented-out lines of code should be removed.(½á¬‹ùÿÿÿÿ
+{
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(§Ã•äûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(âãƒ®üÿÿÿÿ
+O	java:S106Ò"9Replace this use of System.out or System.err by a logger.(©ò±…
+T	java:S106Ó"9Replace this use of System.out or System.err by a logger.(ü‡êÓûÿÿÿÿ
+T	java:S106Ô"9Replace this use of System.out or System.err by a logger.(ëåÜ»úÿÿÿÿ
+O	java:S106Õ"9Replace this use of System.out or System.err by a logger.(»“„º
+F
+java:S1197¬"*Move the array designators [] to the type.(è§ûåûÿÿÿÿ
+=
+java:S1110¹"!Remove these useless parentheses.(ÞÔº„øÿÿÿÿ
+>
+java:S1905æ"'Remove this unnecessary cast to "long".(¡÷Óµ
+W	java:S125»"<This block of commented-out lines of code should be removed.(¸°Ô“øÿÿÿÿ
+;
+java:S2153ª"Remove the boxing to "Integer".(µ§½úÿÿÿÿÿ
+=
+java:S1168ý"&Return an empty array instead of null.(¥¹ï
+=
+java:S1168"&Return an empty array instead of null.(¥¹ï
+;
+java:S1659¥"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
+B
+java:S1905§"&Remove this unnecessary cast to "int".(Ã‹öüýÿÿÿÿ
+B
+java:S1905Ê"&Remove this unnecessary cast to "int".(¹±À‘ùÿÿÿÿ
+Q	java:S125Ô"<This block of commented-out lines of code should be removed.(· Ï#
+Q	java:S125à"<This block of commented-out lines of code should be removed.(Ú¥È=
+C
+java:S1905¥"'Remove this unnecessary cast to "long".(ñ™’úÿÿÿÿ
+R	java:S125©"<This block of commented-out lines of code should be removed.(ú×ÂØ
+0
+java:S2183µ"Remove this useless shift(ÌŽÜÕ
