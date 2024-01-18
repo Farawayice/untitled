@@ -119,5 +119,3 @@ Y
 )src/main/java/Year_2024/Demo_01/Test.java,a\c\ac5229e6b0083503725f3fe73757682a2c28dc7c
 Q
 !src/main/java/Year_2024/test.java,a\3\a38b95be76d2428d03fbc2d97ea619132177a774
-G
-.idea/shelf/Changes.xml,c\5\c570b508149f6ceb1ac76d34738314eb12a4d9ff
